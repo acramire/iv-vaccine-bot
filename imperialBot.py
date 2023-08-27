@@ -1,9 +1,8 @@
-import selenium
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 import time
 from selenium.webdriver.support.ui import Select
-import twitterBot 
+import twitterAPI 
 
 import os
 
@@ -89,7 +88,7 @@ while True:
 		try:
 			time.sleep(1)
 			test = driver.find_element_by_xpath("/html/body/div/div/main/div/div[2]/div[2]/div/div[2]/h3").text
-			twitterBot.sendTweet(test)					 
+			twitterAPI.sendTweet(test)					 
 		except NoSuchElementException:
 			print("none available")
 
