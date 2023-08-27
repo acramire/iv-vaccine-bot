@@ -18,7 +18,3 @@ api = TwitterAPI(consumer_key, consumer_secret, access_token_key, access_token_s
 def sendTweet(message):
 	r = api.request('statuses/update', {'status': message} )
 	print(r.status_code)
-
-#sendTweet("test")
-#def sendtweet():
-	#r = api
