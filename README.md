@@ -1,6 +1,5 @@
 # Twitter Bot - COVID Vaccine Appointment Notifier
 
-![Twitter Bot Logo](your-logo-image-url-here)
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -9,8 +8,7 @@
 - [Impact](#impact)
 - [Setup](#setup)
 - [Usage](#usage)
-- [Contributions](#contributions)
-- [License](#license)
+
 
 ## Introduction
 
@@ -54,13 +52,6 @@ TWITTER_API_SECRET_KEY=your-secret-key-here
 Run the main Python script to start the bot:
 
 \`\`\`bash
-python main.py
+python bot.py
 \`\`\`
 
-## Contributions
-
-Feel free to fork this project, open a pull request, or submit issues through [GitHub](https://github.com/acramire/iv-vaccine-bot).
-
-## License
-
-This project is open-source, available under [MIT License](LICENSE).
