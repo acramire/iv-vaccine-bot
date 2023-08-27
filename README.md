@@ -1,3 +1,5 @@
+# :warning: **WARNING: This project is no longer functional as the Twitter API used is no longer in service.**
+
 # Twitter Bot - COVID Vaccine Appointment Notifier
 
 
